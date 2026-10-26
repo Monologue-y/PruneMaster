@@ -1,0 +1,28 @@
+# Godot import cache / generated
+game/.godot/
+
+# Engine binaries & downloads (too large for git)
+tools/godot/
+tools/downloads/
+tools/jdk17/
+tools/android-sdk/
+tools/export_templates/
+tools/keystore/
+
+# Build artifacts
+builds/
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Python helper cache
+__pycache__/
+*.py[cod]
+
+# Private delivery documents
+docs/summary.md
+docs/*.docx
+tools/make_summary_docx.py
+/*.pdf

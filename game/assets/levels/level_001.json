@@ -1,0 +1,33 @@
+{
+  "id": 1,
+  "name": "Level 1 · First Pruning",
+  "lives": 3,
+  "trees": [
+    { "id": 1, "name": "A" },
+    { "id": 2, "name": "B" },
+    { "id": 3, "name": "C" }
+  ],
+  "nodes": [
+    { "id": 101, "trees": [1], "pos": [180.0, 190.0], "children": [102, 103] },
+    { "id": 102, "trees": [1], "pos": [60.0, 420.0], "children": [106] },
+    { "id": 103, "trees": [1], "pos": [280.0, 420.0], "children": [104, 105] },
+    { "id": 104, "trees": [1], "pos": [170.0, 650.0], "children": [] },
+    { "id": 105, "trees": [1], "pos": [290.0, 650.0], "children": [] },
+    { "id": 106, "trees": [1], "pos": [60.0, 650.0], "children": [107] },
+    { "id": 107, "trees": [1], "pos": [60.0, 880.0], "children": [] },
+
+    { "id": 201, "trees": [2], "pos": [520.0, 190.0], "children": [202, 203] },
+    { "id": 202, "trees": [2], "pos": [450.0, 420.0], "children": [204, 205] },
+    { "id": 203, "trees": [2], "pos": [600.0, 420.0], "children": [206] },
+    { "id": 204, "trees": [2], "pos": [446.0, 650.0], "children": [208] },
+    { "id": 205, "trees": [2], "pos": [524.0, 650.0], "children": [] },
+    { "id": 206, "trees": [2], "pos": [620.0, 650.0], "children": [207] },
+    { "id": 207, "trees": [2], "pos": [620.0, 880.0], "children": [] },
+    { "id": 208, "trees": [2], "pos": [460.0, 880.0], "children": [] },
+
+    { "id": 301, "trees": [3], "pos": [370.0, 190.0], "children": [302] },
+    { "id": 302, "trees": [3], "pos": [370.0, 420.0], "children": [303] },
+    { "id": 303, "trees": [3], "pos": [368.0, 650.0], "children": [304] },
+    { "id": 304, "trees": [3], "pos": [370.0, 880.0], "children": [] }
+  ]
+}
